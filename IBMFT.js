@@ -73,7 +73,7 @@ function get_signature_header_value(key_id: string, algorithm: string, headers: 
   return header_value;
 }
 
-///// test methods /////
+///// test metods /////
 
 // uses the (request-target), host, and date headers
 function basic_test() {
